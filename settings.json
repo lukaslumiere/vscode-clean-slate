@@ -1,29 +1,39 @@
 {
-  "symbols.hidesExplorerArrows": false,
-  "terminal.integrated.env.windows": {},
   "workbench.colorTheme": "Min Dark",
-  "console-ninja.featureSet": "Community",
-  "workbench.sideBar.location": "right",
-  "workbench.editor.showTabs": "none",
-  "editor.minimap.renderCharacters": false,
   "workbench.iconTheme": "symbols",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "workbench.statusBar.visible": false,
-  "files.autoSave": "afterDelay",
+  "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.tips.enabled": false,
   "window.menuBarVisibility": "compact",
   "window.commandCenter": false,
-  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.layoutControl.enabled": false,
   "explorer.compactFolders": false,
+  "symbols.hidesExplorerArrows": false,
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.env.windows": {},
+
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
-  "workbench.preferredDarkColorTheme": "Min Dark",
-  "workbench.tips.enabled": false,
   "editor.fontSize": 13,
   "editor.minimap.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.renderCharacters": false,
+
+  "files.autoSave": "afterDelay",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports.ts": "explicit",
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "workbench.preferredDarkColorTheme": "Min Dark"
 }
