@@ -1,19 +1,20 @@
 {
   "workbench.colorTheme": "Min Dark",
+  "workbench.preferredDarkColorTheme": "Min Dark",
   "workbench.iconTheme": "symbols",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "single",
   "workbench.tips.enabled": false,
+  "workbench.layoutControl.enabled": false,
   "window.menuBarVisibility": "compact",
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "explorer.compactFolders": false,
   "symbols.hidesExplorerArrows": false,
 
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.env.windows": {},
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.completionContext.typescript.mode": "on",
 
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
@@ -22,18 +23,20 @@
   "editor.minimap.renderCharacters": false,
 
   "files.autoSave": "afterDelay",
-
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.addMissingImports.ts": "explicit",
+    "source.addMissingImports.ts": "explicit"
   },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "[prisma]": {
     "editor.formatOnSave": true
   },
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
 
-  "workbench.preferredDarkColorTheme": "Min Dark"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.env.windows": {}
 }
